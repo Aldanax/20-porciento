@@ -1,0 +1,26 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 100px;
+}
+#contenedor_cabecera{
+   width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contenedor_banner{
+    background-image: url(./img/banner.png);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#descripcion{
+    font-size: xx-large;
+    color: white;
+}
