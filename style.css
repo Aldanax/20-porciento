@@ -5,22 +5,34 @@
     width: 100px;
 }
 #contenedor_cabecera{
-   width: 100%;
-    display: flex; 
+    width: 100%;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 #contenedor_banner{
-    background-image: url(./img/banner.png);
-    height: 1000px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+    background-image: url(./img/dias-de-mecatronica-universidad-ean-banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
-
+    height: 400px;
+}
+#subtitulo{
+    font-size: xx-large;
+    color:goldenrod
 }
 #descripcion{
-    font-size: xx-large;
-    color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
 }
+#tarjetas{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
